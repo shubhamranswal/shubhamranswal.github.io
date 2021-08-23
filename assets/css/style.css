@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
+  text-align: center;
 }
 
 .videobg {
@@ -58,4 +59,36 @@ video {
   justify-content: center;
   height: 20vw;
   margin: 0 0 0 40vw;
+}
+
+@media only screen and (max-width: 400px){
+  *{
+    text-align: center;
+    overflow:hidden;
+  }
+  video {
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  object-fit: cover;
+  }
+  .landing_message{
+    font-size: 25px;
+    margin: 0 0 0 0;
+  }
+  .social_links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
+  .connect{
+    padding: 0;
+  }
+  .image_link{
+    flex:1 0 100%
+  }
+  .bottom{
+    margin-bottom: 0;
+    position: fixed;
+  }
 }
