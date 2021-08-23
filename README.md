@@ -6,4 +6,4 @@ too in HTML, CSS and JavaScript.
 
 I will be completing it very soon.
 
-[Visit by clicking here](https://shubhamranswal.github.io/ "Shubham Singh Ranswal")
+[Visit by clicking here](https://shubhamranswal.github.io/ "Shubham Singh Ranswal"){:target="_blank" rel="noopener"}
