@@ -920,7 +920,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-consult .video, #fh5co-consult .choose {
   display: inline-block;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #fh5co-consult .video, #fh5co-consult .choose {
     width: 100% !important;
   }
@@ -941,7 +941,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #fh5co-consult .video {
     display: none;
   }
