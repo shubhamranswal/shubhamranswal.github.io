@@ -445,7 +445,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 50%;
   margin-left: 0px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline:before {
     margin-left: -64px;
   }
@@ -455,7 +455,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-left: -64px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline .timeline-heading {
     margin-bottom: 30px;
   }
@@ -473,7 +473,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline .timeline-heading > div h3 {
     float: left;
     margin-bottom: 0;
@@ -483,7 +483,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px;
   position: relative;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline > li {
     margin-bottom: 4em;
   }
@@ -505,7 +505,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline > li > .timeline-panel {
     width: 85% !important;
   }
@@ -540,7 +540,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline > li > .timeline-badge {
     margin-left: -10px !important;
   }
@@ -559,7 +559,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .timeline > li.timeline-unverted {
   text-align: right;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline > li.timeline-unverted {
     text-align: left;
   }
