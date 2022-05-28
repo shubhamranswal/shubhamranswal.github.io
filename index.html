@@ -558,41 +558,40 @@
 		</div>
 		<div class="choose animate-box">
 			<h2>Contact Me 😃</h2>
-			<form name="form" id="contactForm" action="https://formsubmit.co/fe15fab026421176c75e3aa1869bb33a" method="POST">
+			<form action="https://formsubmit.co/fe15fab026421176c75e3aa1869bb33a" method="POST">
 				<div class="row form-group">
 					<div class="col-md-6">
-						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+						<input type="name" name="First Name" id="fname" class="form-control" placeholder="Your firstname" required>
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-md-6">
-						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+						<input type="name" name="Last Name" id="lname" class="form-control" placeholder="Your lastname">
 					</div>
 				</div>
 
 				<div class="row form-group">
 					<div class="col-md-12">
-						<input type="email" id="email" class="form-control" placeholder="Your email address">
+						<input type="email" name="Email Address" id="email" class="form-control" placeholder="Your email address" required>
 					</div>
 				</div>
 
 				<div class="row form-group">
 					<div class="col-md-12">
-						<input type="text" id="subject" 
-						name="_subject" class="form-control" placeholder="Your subject of this message">
+						<input type="text" name="Subject" id="subject" class="form-control" placeholder="Your subject of this message" required>
 					</div>
 				</div>
 
 				<div class="row form-group">
 					<div class="col-md-12">
-						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+						<textarea required name="Message" id="message" cols="30" rows="10" class="form-control" placeholder="Write your message here..."></textarea>
 					</div>
 				</div>
 				<div class="form-group">
 					<input type="submit" value="Send Message" class="btn btn-primary">
 				</div>
 
-				<input type="hidden" name="_next" value="shubhamranswal.github.io">
+				<input type="hidden" name="_next" value="https://shubhamranswal.github.io/">
 				<input type="hidden" name="_subject" value="New Submission for Portfolio!">
 				<input type="hidden" name="_template" value="table">
 				<input type="hidden" name="_captcha" value="false">
