@@ -321,11 +321,6 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   justify-content: space-between;
 }
-@media screen and (max-width: 992px) {
-  .info {
-    margin-bottom: 3em;
-  }
-}
 @media screen and (max-width: 1200px){
   .info{
     overflow-x: hidden;
@@ -337,6 +332,13 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: smaller;    
   }
 }
+@media screen and (max-width: 992px) {
+  .info {
+    margin-bottom: 3em;
+    width: fit-content;
+  }
+}
+
 .info li {
   width: 100%;
   float: left;
